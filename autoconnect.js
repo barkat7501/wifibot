@@ -15,8 +15,8 @@ console.log(
   await page.goto("http://10.0.0.1:8090/httpclient.html");
 
   // Find and interact with the username and password fields (replace with actual selectors)
-  await page.type("#username", "mur2201753");
-  await page.type("#password", "Mewar@1753");
+  await page.type("#username", "$USER");
+  await page.type("#password", "$PWD");
 
   // Click the button using its ID (replace 'button-id' with your actual button ID)
   await page.click("#loginbutton");
